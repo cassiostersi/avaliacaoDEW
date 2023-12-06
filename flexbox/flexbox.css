@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+
+}
+#container {
+    background-color: black;
+    height: 600px;
+    width: 90%;   
+    
+}
+header {
+    width: 96%;
+    height: 150px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+main {
+    width: 100%;
+    background-color: blue;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+section {
+    width: 30%;
+    height: 400px;
+    
+}
+#sec1{
+    background-color: chartreuse;
+    margin-left: 10px;
+}
+#sec2{
+    background-color: rgb(161, 181, 218);
+}
+#sec3{
+    background-color: chartreuse;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#art1{
+    background-color: chocolate;
+    width: 90%;
+    height: 30%;
+}
+#art2{
+    background-color: rgb(33, 30, 210);
+    width: 90%;
+    height: 70%;
+}
